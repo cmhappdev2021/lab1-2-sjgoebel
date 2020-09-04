@@ -74,7 +74,7 @@ Average heart rate: The user's average heart rate over the last 24 hours
 
 
 // Declare a variable called name of type String, but do not give it a value. Print name to the console. Does the code compile? Remove any code that will not compile.
-
+var name: String = "Joe"
 
 // Now assign a value to name, and print it to the console.
 
