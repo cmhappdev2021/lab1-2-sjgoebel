@@ -3,10 +3,11 @@ let friends = 801
 print(friends)
 
 // Now assume you go through and remove friends that aren't active on social media. Attempt to update your friends constant to a lower number than it currently is. Observe what happens and then move to the next step.
-
+//friends = 750
 
 // Does the above code compile? Why not? Print your explanation to the console using the print function. Go back and delete your line of code that updates the friends constant to a lower number so that the playground will compile properly.
 
+print("The code above does not compile. A constant cannot be redefined in code.")
 
 // Note: These exercises reinforce Swift concepts in the context of a fitness tracking app.
 // Your fitness tracking app needs to know goal number of steps per day. Create a constant goalSteps and set it to 10000.
@@ -38,9 +39,11 @@ Year created: The year the post was created
 Month created: The month the post was created represented by a number between 1 and 12
 Day created: The day of the month the post was created
 
+
 For each of the metrics above, declare either a constant or a variable and assign it a value corresponding to a hypothetical post. Be sure to use proper naming conventions.
 */
 
+var likes = 2
 
 /* There are all sorts of things that a fitness tracking app needs to keep track of in order to display the right information to the user. Similar to the last exercise, declare either a constant or a variable for each of the following items, and assign each a sensible value. Be sure to use proper naming conventions.
 
